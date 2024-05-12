@@ -25,7 +25,7 @@ global.mess = {
 global.owner = [process.env.OWNER_NUMBER] || ['94711453097'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
 
 module.exports = {    
-SESSION_ID: process.env.SESSION_ID || 'youre session id',
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD:HackingEames',
 POSTGRESQL_URL: process.env.POSTGRESQL_URL || 'postgres://izumimd_meje_user:0Vhm5vKGZ7ORt2FlJBQf4d6EtRdeuE8z@dpg-cn0o2imn7f5s73fa46q0-a.frankfurt-postgres.render.com/izumimd_meje',
 PREFIX:  process.env.PREFIX || ['.'] ,
 LANG:  process.env.LANG || 'SI' ,    
@@ -41,7 +41,7 @@ ANTI_LINK: process.env.ANTI_LINK || false  ,
 ANTI_BOT: process.env.ANTI_BOT || false  ,
 OWNER_NUMBER: process.env.OWNER_NUMBER || '94719199757'  ,    
 ALIVE: process.env.ALIVE || `default`,
-OWNER_NAME: process.env.OWNER_NAME || 'Vajira' ,     
+OWNER_NAME: process.env.OWNER_NAME || 'kavi' ,     
 AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,    
 AUTO_VOICE:  process.env.AUTO_VOICE  || false  ,
 AUTO_STICKER: process.env.AUTO_STICKER || false  ,
